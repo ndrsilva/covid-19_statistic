@@ -40,7 +40,7 @@ mostrar_frame_mortes.grid(row=1, column=2, sticky=NW, pady=5, padx=0)
 selecione_frame = Frame(janela, width=840, height=50, bg=cor_06, relief="flat")
 selecione_frame.grid(row=2, column=0, columnspan=3, sticky=N, pady=10)
 
-####################/ cirando labels para app_nome_frame /#####################
+####################/ criando labels para app_nome_frame /#####################
 img = Image.open("covid-019.jpeg")
 img = img.resize((80, 50))
 img = img.save("covid-19.png")
